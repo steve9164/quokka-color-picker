@@ -1,5 +1,5 @@
-import Vue from 'vue'
 import App from './App.vue'
+const Vue = window.Vue; // From CDN to reduce size
 
 Vue.config.productionTip = false
 
